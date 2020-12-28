@@ -40,7 +40,7 @@ public class RefreshTokenCookiePreProcessorFilter implements Filter {
 			
 		}
 		
-		chain.doFilter(req,  response);
+		chain.doFilter(req, response);
 					
 	}
 	
